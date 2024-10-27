@@ -44,7 +44,7 @@ class OnboardingScreen extends StatelessWidget {
 
           InkWell(
             onTap: (){
-              Navigator.push(context, MaterialPageRoute(builder: (context)=>
+              Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>
               LoginScreen()
               ));
             },

@@ -1,3 +1,4 @@
+import 'package:ecommerce_flutter/utlis/color_constants.dart';
 import 'package:ecommerce_flutter/utlis/image_constants.dart';
 import 'package:ecommerce_flutter/view/splash_screen/splash_screen.dart';
 import 'package:flutter/material.dart';
@@ -13,6 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(scaffoldBackgroundColor:ColorConstants.SCAFFOLD ),
       debugShowCheckedModeBanner: false,
       home:SplashScreen() ,
 
