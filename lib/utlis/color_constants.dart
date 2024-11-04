@@ -11,5 +11,8 @@ class ColorConstants{
       static const  Color WHITE=Color(0xffFFFFFF) ;
        static const  Color GREYSHADE6=Color(0xffBBBBBB) ;
          static const  Color SCAFFOLD=Color(0xffFDFDFD) ;
+            static const  Color PINK=Color(0xffFD6E87) ;
+               static const  Color SECONDARY=Color(0xff4392F9) ;
+                  static const  Color ORANGE=Color(0xffFB735C) ;
          
 }
