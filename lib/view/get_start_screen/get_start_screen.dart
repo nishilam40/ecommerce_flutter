@@ -1,5 +1,6 @@
 import 'package:ecommerce_flutter/utlis/color_constants.dart';
 import 'package:ecommerce_flutter/utlis/image_constants.dart';
+import 'package:ecommerce_flutter/view/botom_navbar_screen/bottom_navbar_screen.dart';
 import 'package:ecommerce_flutter/view/global_widgets/custom_button.dart';
 import 'package:ecommerce_flutter/view/home_screen/home_screen.dart';
 import 'package:flutter/material.dart';
@@ -61,7 +62,7 @@ class GetStartScreen extends StatelessWidget {
                   SizedBox(height: 44,),
                   CustomButton(buttonText: "Get Started",
                   onButtonPressed: (){
-                  Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context)=>HomeScreen()
+                  Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context)=>BottomNavigationBarScreen()
                   ), (route) =>false );
                 },
                   )

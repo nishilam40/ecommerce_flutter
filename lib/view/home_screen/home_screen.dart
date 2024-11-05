@@ -164,7 +164,7 @@ class HomeScreen extends StatelessWidget {
          ],
        );
         }
-        
+        //  section 6
       Widget _specialOfferssection(){
          return Padding(
            padding: const EdgeInsets.symmetric(horizontal: 16),
