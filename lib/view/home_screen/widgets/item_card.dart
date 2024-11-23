@@ -68,7 +68,8 @@ class CustomItemCard extends StatelessWidget {
               ),
               )
             ],
-          ),SizedBox(height: 4,),
+          ),
+          SizedBox(height: 4,),
            Row(
             children: [
               RatingBar.readOnly(

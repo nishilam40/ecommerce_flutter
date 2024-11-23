@@ -247,7 +247,8 @@ class HomeScreen extends StatelessWidget {
   
 //  section 4 
   CarouselSlider _buildCaroselsection() {
-    return CarouselSlider.builder(
+    return
+     CarouselSlider.builder(
           itemCount:Dummydb.featuredItemList.length,
          
  

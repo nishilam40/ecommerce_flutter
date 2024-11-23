@@ -1,5 +1,6 @@
 import 'package:ecommerce_flutter/utlis/color_constants.dart';
 import 'package:ecommerce_flutter/utlis/image_constants.dart';
+import 'package:ecommerce_flutter/view/product_detail_screen/product_detail_screen.dart';
 import 'package:ecommerce_flutter/view/splash_screen/splash_screen.dart';
 import 'package:flutter/material.dart';
 void main(){
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(scaffoldBackgroundColor:ColorConstants.SCAFFOLD ),
       debugShowCheckedModeBanner: false,
-      home:SplashScreen() ,
+      home:Productdetailscreen() ,
 
     );
   }

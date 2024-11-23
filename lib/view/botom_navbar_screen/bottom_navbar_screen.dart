@@ -1,5 +1,6 @@
 import 'package:ecommerce_flutter/utlis/color_constants.dart';
 import 'package:ecommerce_flutter/view/home_screen/home_screen.dart';
+import 'package:ecommerce_flutter/view/product_detail_screen/product_detail_screen.dart';
 import 'package:ecommerce_flutter/view/whishlist_screen/whislist_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -16,6 +17,7 @@ class _BottomNavigationBarScreenState extends State<BottomNavigationBarScreen> {
   final List screens=[
     HomeScreen(),
    WhislistScreen(),
+  //  Productdetailscreen(),
     Center(child: Text("Wish list"),),
     Center(child: Text("Search"),),
     Center(child: Text("Settings"),),
